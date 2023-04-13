@@ -62,10 +62,17 @@
 
     <ListView
         android:id="@+id/lv_StudentList"
-        android:layout_width="364dp"
-        android:layout_height="552dp"
+        android:layout_width="385dp"
+        android:layout_height="268dp"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_view"
+        app:layout_marginBaseline="8dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

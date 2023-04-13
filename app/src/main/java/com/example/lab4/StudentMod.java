@@ -4,7 +4,6 @@ public class StudentMod {
     private int ID;
     private  String name;
     private  int age;
-    private boolean isActive;
 
     public StudentMod(int ID, String name, int age) {
         this.ID = ID;
@@ -24,10 +23,6 @@ public class StudentMod {
         return age;
     }
 
-    public boolean isActive() {
-        return isActive;
-    }
-
     public void setID(int ID) {
         this.ID = ID;
     }
@@ -40,9 +35,6 @@ public class StudentMod {
         this.age = age;
     }
 
-    public void setActive(boolean active) {
-        isActive = active;
-    }
 
     @Override
     public String toString() {
@@ -50,7 +42,6 @@ public class StudentMod {
                 "ID=" + ID +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", isActive=" + isActive +
                 '}';
     }
 }
